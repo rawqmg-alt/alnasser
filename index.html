@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نادي النصر السعودي</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      background: #f9fafb;
+      color: #1f2937;
+      text-align: center;
+    }
+    header {
+      background: #facc15; /* أصفر النصر */
+      color: #111;
+      padding: 20px;
+    }
+    header img {
+      width: 80px;
+    }
+    nav a {
+      color: #111;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #1d4ed8; /* أزرق النصر */
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/ar/thumb/1/18/Al-Nassr_FC_Logo.svg/120px-Al-Nassr_FC_Logo.svg.png" alt="شعار النصر">
+    <h1>نادي النصر السعودي</h1>
+    <nav>
+      <a href="#about">عن النادي</a>
+      <a href="#achievements">البطولات</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>عن النادي</h2>
+    <p>نادي النصر السعودي هو أحد أشهر الأندية في المملكة العربية السعودية، تأسس عام 1955 ومقره الرياض. يُلقب بالعالمي.</p>
+  </section>
+
+  <section id="achievements">
+    <h2>البطولات</h2>
+    <p>حقق النصر العديد من البطولات المحلية والقارية، منها:</p>
+    <ul style="list-style:none; padding:0;">
+      <li>🏆 الدوري السعودي: 9 مرات</li>
+      <li>🏆 كأس الملك: 6 مرات</li>
+      <li>🏆 كأس ولي العهد: 3 مرات</li>
+      <li>🌍 أول فريق يمثل آسيا في كأس العالم للأندية 2000</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل مع النادي</h2>
+    <p>تابع النصر عبر:</p>
+    <a class="btn" href="https://twitter.com/AlNassrFC" target="_blank">تويتر</a>
+    <a class="btn" href="https://www.alnassr.sa/" target="_blank">الموقع الرسمي</a>
+  </section>
+
+  <footer>
+    © <span id="year"></span> نادي النصر السعودي - تصميم تجريبي HTML
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
